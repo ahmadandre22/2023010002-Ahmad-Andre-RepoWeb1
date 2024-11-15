@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
-<body>
+
  
 <?php
-echo "My first PHP script!";
+$x = 5;
+$y=10;
+$xy= $x+$y;
+echo "My first PHP script! $xy";
 ?>
 
-</body>
-</html>
