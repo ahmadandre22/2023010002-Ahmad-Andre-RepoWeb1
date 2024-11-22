@@ -34,7 +34,7 @@ body {
 }
 
 .artikel-populer h3 {
-    background-color: navy;
+    background-color: green;
     color: white;
     padding: 10px;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 nav {
-    background-color: navy;
+    background-color: green;
 }
 
 nav ul {
@@ -113,7 +113,7 @@ h1 {
 }
 
 footer {
-    background-color: navy;
+    background-color: green;
     color: white;
     text-align: center;
     padding: 20px;
