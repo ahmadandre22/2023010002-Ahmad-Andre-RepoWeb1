@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #68aefd;
+    color: #333;
+}
+header {
+    background-color: #68aefd;
+    color: #090000;
+    text-align: center;
+    padding: 1em 0;
+}
+header img {
+    height: 50px;
+    vertical-align: middle;
+}
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Menu berada di tengah */
+    position: relative;
+}
+
+nav ul li {
+    margin: 0 10px; /* Jarak antar menu */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Gaya khusus tombol login */
+nav ul .login-button {
+    position: absolute;
+    right: 20px; /* Tombol login di sisi kanan */
+}
+
+nav ul .login-button button {
+    background-color: #333;
+    color: #333;
+    border: none;
+    padding: 2px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav ul .login-button button:hover {
+    background-color: #333;
+}
+
+
+main {
+    padding: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 170px;
+}
+footer img {
+    height: 30px;
+    vertical-align: middle;
+}
+

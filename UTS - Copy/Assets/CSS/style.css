@@ -1,0 +1,259 @@
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #68aefd;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header Styles */
+header, .site-header {
+    background-color: #68aefd;
+    color: #090000;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container, .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+header img, .logo {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+/* Navigation Styles */
+nav, .navbar {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a, .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover, .navbar a:hover {
+    background-color: #444;
+}
+
+/* Login Button Styles */
+.navbar .login, .navbar a.login {
+    background-color: #ff5733;
+    padding: 8px 20px;
+}
+
+.navbar .login:hover, .navbar a.login:hover {
+    background-color: #e04d28;
+}
+
+/* Main Content Styles */
+main {
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Container Styles */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('images/background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 40px;
+    min-height: 80vh;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 80%;
+    height: auto;
+    border: 2px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Profile Section Styles */
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.profile-photo img, .profile-section .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile-section h2 {
+    font-size: 22px;
+}
+
+.profile-section .position {
+    font-style: italic;
+    color: #555;
+}
+
+/* CV Styles */
+#cv {
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section Styles */
+.section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+/* Social Media Styles */
+.social-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-container h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.facebook { background-color: #3b5998; }
+.twitter { background-color: #1da1f2; }
+.instagram { 
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%); 
+}
+.linkedin { background-color: #0077b5; }
+
+/* Footer Styles */
+footer, .site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer img {
+    height: 30px;
+    vertical-align: middle;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

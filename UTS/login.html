@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Login dan Registrasi</title>
+    <link rel="stylesheet" href="Assets/CSS/login.css">
+</head>
+<body>
+
+    <!-- Pop-up Login -->
+    <div id="popup-login" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Login</h2>
+            <form>
+                <label for="login-username">Username</label>
+                <input type="text" id="login-username" placeholder="Masukkan username" required>
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" placeholder="Masukkan password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Belum punya akun? <a href="#popup-register">Registrasi di sini</a></p>
+        </div>
+    </div>
+
+    <!-- Pop-up Registrasi -->
+    <div id="popup-register" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Registrasi</h2>
+            <form>
+                <label for="register-username">Username</label>
+                <input type="text" id="register-username" placeholder="Buat username" required>
+                <label for="register-email">Email</label>
+                <input type="email" id="register-email" placeholder="Masukkan email" required>
+                <label for="register-password">Password</label>
+                <input type="password" id="register-password" placeholder="Buat password" required>
+                <button type="submit">Register</button>
+            </form>
+            <p>Sudah punya akun? <a href="#popup-login">Login di sini</a></p>
+        </div>
+    </div>
+</body>
+</html>

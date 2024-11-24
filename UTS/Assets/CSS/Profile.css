@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #68aefd;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+ /* Header Styles */
+.site-header {
+    background-color: #68aefd; /* Ganti kuning menjadi putih atau warna lain */
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+  
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Menu berada di tengah */
+    position: relative;
+}
+
+nav ul li {
+    margin: 0 10px; /* Jarak antar menu */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Gaya khusus tombol login */
+nav ul .login-button {
+    position: absolute;
+    right: 20px; /* Tombol login di sisi kanan */
+}
+
+nav ul .login-button button {
+    background-color: #333;
+    color: #333;
+    border: none;
+    padding: 2px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav ul .login-button button:hover {
+    background-color: #333;
+}
+  
+  /* Main Content Styles */
+  main {
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #cv {
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p, li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .section {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .section ul {
+    padding-left: 20px;
+  }
+  
+  .section ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 170px;
+}
+footer img {
+    height: 30px;
+    vertical-align: middle;
+}
+
+  
+  
