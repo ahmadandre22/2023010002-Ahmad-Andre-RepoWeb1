@@ -1,13 +1,103 @@
-!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-   
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-   
-  </body>
+<head>
+    <title>Clash of Clans</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+</head>
+<body> 
+    <!--Menu--> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!--(fixed-top) agar navbar tetap tampil saat  di scroll-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://supercell.com/en/games/clashofclans/">
+           <img src="bootstrap-5.3.3-dist/img/logo-game.jpg" width="40px" height="40px">
+            Mengenal Clash of Clans
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!--mengatur posisi navbar!-->
+              <li class="nav-item mx-1"><!--(mx-3) mengatur jarak antar menu-->
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" href="#hero">Hero</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" href="#">Troops</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Conten-->
+      <div class ="container-fluid" 
+      style ="height: 95vh;
+      filter: brightness(80%);
+      background: url('bootstrap-5.3.3-dist/img/Bg1.jpg');
+      background-size:cover;">
+
+      <div class ="container col-lg-8" 
+      style ="height: 100%;
+      color:black;
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      font-size: large;">
+      <div>
+        <h1 class="fs-1">
+          Clash of Clans
+        </h1>
+        <p class="text-white d-none d-md-block">
+         
+          Clash of Clans adalah sebuah game strategi freemium yang dikembangkan oleh Supercell.
+          Game ini pertama kali dirilis pada platform iOS pada 2 Agustus 2012 dan di Android pada 7 Oktober 2013.
+          Clash of Clans menjadi salah satu game mobile paling populer di dunia, dengan jutaan pemain aktif setiap harinya.
+        
+        </p>
+      </div>
+      </div>
+      </div>
+ 
+      <div id ="hero">
+      <div class="container-fluid py-5 text-center" 
+      style="background-color: #212529;">
+      <h2 class ="text-center text-white">Hero di clash of clans</h2>
+        <div class="row">
+          <div class="col">
+            <img src="bootstrap-5.3.3-dist/img/king.png" width="300px" height="400px" alt="">
+          </div>
+          <div class="col">
+            <h3 class="text-white">Barbarian King</h3>
+            <p class="text-white" style ="text-align: justify;">
+              Barbarian King adalah hero ikonik dalam game Clash of Clans yang berfungsi sebagai tank dan petarung jarak dekat.
+              Dengan tubuh besar, armor berat, dan pedang raksasa, ia memiliki HP tinggi dan serangan kuat,
+              menjadikannya andalan untuk mendobrak pertahanan musuh. Kemampuan utamanya, Iron Fist,
+              meningkatkan serangan dan regenerasi HP sambil memanggil Barbarian tambahan untuk bertarung bersamanya.
+              Barbarian King dapat di-upgrade menggunakan Dark Elixir, sehingga semakin kuat seiring levelnya meningkat.
+              Sebagai hero pertama yang diperkenalkan di game, ia tetap menjadi elemen penting dalam strategi menyerang maupun bertahan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Footer -->
+    <footer class="bg-dark text-white text-center text-lg-start fixed-bottom ">
+      <!-- Footer Bottom -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2024 Ahmad Andre. All Rights Reserved.
+      </div>
+  </footer>
+      
+     
+     
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+
+    <!-- coba -->
+</body>
 </html>
