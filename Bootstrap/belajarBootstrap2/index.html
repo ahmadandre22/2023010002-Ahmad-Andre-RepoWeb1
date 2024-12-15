@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portofoli | Ahmad Andre</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Andre</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skils</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Timeline</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Header   -->
+     <section class="srction header-section" id="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between ">
+                <div class="col-md-6">
+                    <p class="text-orange fw-semibold">Ahmad Andre</p>
+                    <h1 class="header-title text-uppercase fw-bold mb-5">
+                        creative designed <br class="d-none d-md-block">based in indonesia
+                    </h1>
+                   
+                  <a href="#" class="header-skill d-inline-flex align-items-center gap-2">
+                    Web Development <i class="bx bx-right-arrow-alt fs-4"></i>
+                  </a> <br>  
+                  <a href="#" class="header-skill d-inline-flex align-items-center gap-2">
+                    Mobile Development <i class="bx bx-right-arrow-alt fs-4"></i>
+                  </a> <br> 
+                  <a href="#" class="header-skill d-inline-flex align-items-center gap-2">
+                    Graphic Designer <i class="bx bx-right-arrow-alt fs-4"></i>
+                  </a> 
+                  
+                  <div class="d-flex align-item-center gap-4 mt-5">
+                    <div class="d-flex align-items-center gap-2">
+                        <h2 class="header-skill fw-bold mb-0">10+</h2>
+                        <p class="text-secondary fs-7 mb-0">
+                            Years of <br> Experience</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <h2 class="header-skill fw-bold mb-0">30K+</h2>
+                        <p class="text-secondary fs-7 mb-0">
+                            Happy <br> Customers</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img src="Assets/img/Fotoku2.jpg" class="header-img" alt="">  
+                </div>
+            </div>
+        </div>
+     </section>
+ 
+     <!-- Portfolio --> 
+      <section class="section portfolio-section" id="portfolio">
+        <div class="container">
+          <p class="text-orange fw-semibold">Portfolio</p>
+          <h2 class="section-title mb-5">selected works</h2>
+
+          <div class="swiper portfolio-sweiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="Assets/img/portfolio-1.jpg" alt="" class="card-img-top rounded mb-3">
+                      <h6 class="fw-semibold">Pomodoro Timer App UI</h6>
+                      <a href="#" class="text-orange">Detail Portfolio</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="Assets/img/portfolio-2.jpg" alt="" class="card-img-top rounded mb-3">
+                      <h6 class="fw-semibold">Ride Share App</h6>
+                      <a href="#" class="text-orange">Detail Portfolio</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="Assets/img/portfolio-3.jpg" alt="" class="card-img-top rounded mb-3">
+                      <h6 class="fw-semibold">E-Learning Online Course App</h6>
+                      <a href="#" class="text-orange">Detail Portfolio</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".portfolio-swiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      });
+    </script>
+</body>
+</html>
