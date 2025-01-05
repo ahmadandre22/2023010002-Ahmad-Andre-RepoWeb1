@@ -61,4 +61,32 @@ if (isset($_POST['bubah'])) {
             </script>";
     }
 }
+
+
+
+
+//Uji Jika tombol hapus di klik
+if (isset($_POST['bhapus'])) {
+
+    // Persiapan Hapus data 
+    $hapus = mysqli_query($koneksi, "DELETE FROM tmhs WHERE id_mhs ='$_POST[id_mhs]'");
+
+
+
+
+    //Jika Hapus sukses
+    if($hapus){
+        echo"<script>
+                alert('Hapus Data Sukses!');
+                document.location='index.php';
+
+            </script>";
+    }else {
+        echo "<script>
+                alert('Hapus Data Gagal!');
+                document.location='index.php';
+
+            </script>";
+    }
+}
 ?>
