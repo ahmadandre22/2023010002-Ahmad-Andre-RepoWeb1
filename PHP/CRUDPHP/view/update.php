@@ -11,7 +11,7 @@ $query = "SELECT * FROM users WHERE ID = $userid ";
 $view_users = mysqli_query($conn, $query);
 
 while ($row = mysqli_fetch_assoc($view_users)) {
-    $id = $row['ID'];
+    $id = $row['id'];
     $user = $row['username'];
     $email = $row['email'];
     $pass = $row['password'];

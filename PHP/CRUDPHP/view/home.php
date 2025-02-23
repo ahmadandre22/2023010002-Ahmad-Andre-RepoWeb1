@@ -29,7 +29,7 @@
             //displaying  all the data retrieved from the database using while loop
             while ($row =
             mysqli_fetch_assoc($view_users)) {
-            $id = $row['ID'];
+            $id = $row['id'];
             $user = $row['username'];
             $email = $row['email'];
             $pass = $row['password'];

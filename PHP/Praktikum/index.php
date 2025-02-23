@@ -21,8 +21,8 @@
 
 
         <div class="mt-3">
-            <h3 class ="text-center">CRUD - PHP & MySQL + Modal Bootstrap 5</h3>
-            <h3 class ="text-center">Data Mahasiswa RPL A 2023 Polibang</h3>
+            <h3 class ="text-center">CRUD - PHP & MySQL + Modal Bootstrap 5.3</h3>
+            <h3 class ="text-center">Data Mahasiswa Polibang</h3>
         </div>
 
         <div class="card mt-3">
@@ -213,7 +213,9 @@
 
 
 
-
+    <footer class="mt-5 text-center text-primary ">
+        &copy; 2025 2023010002-Ahmad Andre. Hak Cipta Dilindungi.
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
